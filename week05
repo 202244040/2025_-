@@ -1,0 +1,31 @@
+bool 타입 0이 아닌 값 True 0이면 False
+3G :WCDMA 음성, 데이터 
+
+
+char a = '0';
+int result = a - 48; // result = 0 	//문자를 10진수로 바꿔줌
+
+문자 0의 값이 48
+
+#define, Const 차이점
+
+	동기식 > I2C, SPI 신뢰성 높고 늦어도 정확하게 그럼 이거
+
+직렬
+
+	비동기식 > UART 속도가 빠름 좀 깨져도 상관 없음 그럼 이거
+
+
+전송할 때 한 바이트씩 직렬
+
+
+TCP 신뢰성 굳 꺠지면 안됨 , UDP 빠름 신뢰성 낮음 깨져도 노상관인거
+
+
+byte b =97; Serial.print(b);, Seria.write(b);
+
+Serial.print
+97 이라는 숫자를 문자로 변환하여 출력합니다, "97" (문자열 형태)
+
+Seria.write
+97이라는 숫자를 아스키 코드 값으로 해석하여 문자 출력을 합니다, 'a'
