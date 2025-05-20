@@ -18,7 +18,8 @@ $ influx
 >create database <데이터베이스이름>
 확인 : show databases 
 
---------------------------------------------------------------------------------------
+influxdb import with python
+pip install influxdb
 
 1. Install the prerequisite packages
 sudo apt-get install -y apt-transport-https software-properties-common wget
